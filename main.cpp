@@ -1,9 +1,13 @@
 #include<iostream>
+using namespace std;
 
 int main(int argc, char const* argv[]) {
-    std::string username;
-    /*
-        Code here.
-    */
+    string username;
+    
+    cout << "Enter your username: ";
+    cin >> username;
+
+    cout << "Hello, " << username << endl;
+   
     return 0;
 }
