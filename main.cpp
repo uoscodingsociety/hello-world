@@ -2,8 +2,10 @@
 
 int main(int argc, char const* argv[]) {
     std::string username;
-    /*
-        Code here.
-    */
+
+    std::cout << "Enter your name: ";
+    std::cin >> username;
+
+    std::cout << "Hello, " << username << "!" << std::endl;
     return 0;
 }
